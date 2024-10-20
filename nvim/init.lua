@@ -42,4 +42,4 @@ require("config.autocmds")
 -- Pass it the options we specified above
 require("lazy").setup("plugins", opts)
 require("snippets.BashSnippet")
-require("config.texOption")
+require("snippets.texSnippet")
